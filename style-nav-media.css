@@ -1,0 +1,78 @@
+.nav-button-media {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: #ffffff;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 5rem; 
+	float: left;
+	height: 5rem;
+	width: 100%;
+	display: table-cell;
+	position: relative;
+}
+#nav-button-media-hover:hover {
+	cursor: pointer;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5rem;
+	color: red;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 5rem; 
+	float: left;
+	height: 5rem;
+	width: 100%;
+	display: table-cell;
+	position: relative;
+	text-decoration: line-through;
+}
+#nav-button-media-hover:active {
+	opacity: 0.6;
+}
+.mobile-navigation {
+	width: 100%;
+}
+.menu-mobile {
+	height: 10rem;
+	width: 100%;
+	margin-bottom: 0;
+	background-color: #333333;
+}
+#menu-mobile-logo-id {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 10rem;
+	width: 20rem;
+}
+.menu-mobile-logo {
+	height: 5rem;
+	width: 10rem;
+	filter: invert(100%);
+	display: block;
+	position: absolute;
+    left: 5rem;
+    top: 2.5rem;
+	vertical-align: middle;
+}
+.menu-icon {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 10rem;
+	width: 10rem;
+}
+.menu-icon:hover {
+	cursor: pointer;
+}
+.menu-icon-image {
+	height: 5rem;
+	width: 5rem;
+	position: absolute;
+    left: 2.5rem;
+    top: 2.5rem;
+}
+.menu-icon-image:hover {
+	content: url('images/menu-icon-hover.svg');
+}
